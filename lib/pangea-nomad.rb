@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Nomad; module Types; end; end; end; end
+
 # Nomad resources
 require_relative 'pangea/resources/nomad_acl_auth_method/resource'
 require_relative 'pangea/resources/nomad_acl_binding_rule/resource'
